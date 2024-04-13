@@ -1,7 +1,7 @@
 from telebot import TeleBot
 import telebot
 from logic import TaskManager
-bot = TeleBot("6077941896:AAGbReizYk_FxNsV40lrmF1n7lBsW548cz8")
+bot = TeleBot("")
 
 task_manager = TaskManager("database.db")
 task_manager.create_table()
